@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    margin-top: 30px;
+}
+.cantainer{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_link li{
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style: none;
+
+}
+.nav_link a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #696871;
+}
+.nav_link a:hover{
+    color: #19191B;
+    border-bottom: 1px solid #5454D4;
+    padding-bottom: 10px;
+    font-size: 700;
+}
+.nav_btn{
+    background:transparent;
+    border: none;
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FF7143;
+    color: #FFFFFF;
+}
+
+/*sections*/
+
+.hero{
+    margin-top: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.hero_text h1{
+    color: #19191B;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.hero_text p{
+    color: #696871;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif
+}
+.btn{
+    display: flex;
+}
+.btn_text{
+    background: transparent;
+    border: none;
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #5454D4;
+    color: #E5E5E5;
+    margin-top: 50px;
+}
+.btn_img{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: transparent;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+/*groups*/
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+/*contents*/
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+}
+.text{
+    margin-left: 169px;
+}
+.content h1{
+    font-size: 50px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+.content p{
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: #696871;
+    margin-bottom: 30px;
+}
+.content a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #5454D4;
+}
+
+/*cards*/
+
+.cards{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card img{
+    margin-left: 40px;
+    margin-bottom: 7px;
+}
+.card h1{
+    font-size: 24px;
+    color: #19191B;
+}
+.card p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: #696871;
+}
+
+/*contents1*/
+
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.contents h1{
+    font-size: 60px;
+}
+.btn1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 344px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #F7F7FB;
+}
+.con{
+    background: transparent;
+    border: none;
+    width: 160px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #5454D4;
+    margin-left: 6px;
+}
+.cons{
+    background: transparent;
+    border: none;
+    width: 160px;
+    height: 55px;
+    margin-right: 6px;
+}
+
+/*rectangles*/
+
+.rectangles{
+    display: flex;
+    margin-top: 98px;
+    margin-bottom: 174px;
+}
+.rectangle{
+    width: 330px;
+    height: 441px;
+    text-align: center;
+    background-color: #F8F8F8;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.starter{
+    margin-top: 34px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color: #696871;
+}
+.rectangle h1{
+    margin-top: 22px;
+    font-size: 60px;
+}
+.website{
+    margin-top: 28px;
+}
+.website1{
+    margin-top: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    color: #696871;
+}
+.get{
+    margin-top: 45px;
+    background: transparent;
+    border: none;
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 17px;
+    color: #5454D4;
+}
+.oy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oy h2{
+    margin-top: 45px;
+    font-size: 30px;
+}
+.rectangles :hover {
+    background-color: #FF7143;
+    color: #F7F7FB;
+    
+}
+.rectangles :hover p{
+    background-color: #FF7143;
+    color: #F7F7FB;
+}
+.rectangles :hover button{
+    background-color: #f74409;
+    color:white ;
+}
